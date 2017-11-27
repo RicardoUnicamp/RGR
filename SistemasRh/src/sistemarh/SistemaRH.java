@@ -1,18 +1,22 @@
+package sistemarh;
+
+
+import Interface.TelaLogin;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sistemarh;
+
 /**
  *
  * @author Giovana
  */
-public class SistemaRH {
+public class SistemaRH extends TelaLogin{ {
+    initComponents();
 
-    /**
-     * @param args the command line arguments
-     */
+}
     public static void main(String[] args) {
                 String arq = "teste.txt";
 String texto =("Salario-2000 ");
@@ -37,6 +41,10 @@ String texto =("Salario-2000 ");
     funcionario3.setSalario(2000.0);
     System.out.println("\nSalario "+funcionario3.getSalario());
     System.out.println("Promocao "+funcionario3.getPromocao());
+    }
+
+    private void initComponents() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
