@@ -128,22 +128,26 @@ public class TelaInicial extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+dispose();        
+// TODO add your handling code here:
         CadastrarFunc cadastrarFunc = new CadastrarFunc();
         cadastrarFunc.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-         CadastrarFornec cadastrarFornec = new CadastrarFornec();
+        dispose();
+        CadastrarFornec cadastrarFornec = new CadastrarFornec();
          cadastrarFornec.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        dispose();
         MostrarFunc mostrarFunc = new MostrarFunc();
         mostrarFunc.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+       dispose();
         MostrarFornec mostrarFornec = new MostrarFornec();
         mostrarFornec.setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed

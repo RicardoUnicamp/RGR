@@ -147,7 +147,7 @@ public class TelaLogin extends javax.swing.JFrame {
          // TODO add your handling code here:
          if(txtLogin.getText().equals("usuario") && txtSenha.getText().equals("senha")) {
              JOptionPane.showMessageDialog(null, "Bem vindo");
-             
+             dispose();
              TelaInicial telaInicial = new TelaInicial();
              telaInicial.setVisible(true);
              
@@ -186,6 +186,7 @@ public class TelaLogin extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                
                 new TelaLogin().setVisible(true);
             }
         });
