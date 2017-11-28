@@ -1,0 +1,9 @@
+Nome Fisico: 
+Nome Juridico: Digite o nome juridico
+CNPJ: Digite o CNPJ
+Nome Fisico: adasda
+Nome Juridico: Digite o nome juridico
+CNPJ: Digite o CNPJ
+Nome Fisico: teste
+Nome Juridico: Digite o nome juridico
+CNPJ: Digite o CNPJ
